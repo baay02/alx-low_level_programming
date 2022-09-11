@@ -1,8 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- * main - print if the number is positive, zero, or negative
+ * main - print if the number is positibe, zero, or negative
  *
  * Description: using the main function
  * this program prints "Programming is positive, zero, or negative
@@ -10,14 +8,17 @@
  */
 int main(void)
 {
-	char low;
+	char ch;
 
-	for (low = 'a' ; low <= 'z' ; low++)
-		putchar(low);
-	for (low = 'A' ; low <= 'Z' ; low++)
-		putchar(low);
-		putchar('\n');
-		
+	for (ch = 'a' ; ch <= 'z' ; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 	return (0);
 }
 
