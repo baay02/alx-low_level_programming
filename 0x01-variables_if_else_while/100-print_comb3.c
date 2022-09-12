@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print all possible combinations of two different digits ascending order seperated by a comma follow by space
+ * main - print all possible combinations of two numbers
  *
  * Description: using the main function 
  * this program prints "Two seperate number using comma and space
