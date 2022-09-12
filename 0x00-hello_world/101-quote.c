@@ -3,13 +3,22 @@
  * main - print piece of art is useful - Dora Korfar
  *
  * Description: using the main function
- * this program prints "that piece if of art is useful
- * Return: 1
+ * this program prints "Programming is like  building a multilingual puzzle
+ * Return (0);
  */
 int main(void)
 {
-	printf("and that piece of art is useful" - Dora Korfar, 2015-10-19,\n");
+	char c;
+	int i;
+	long li;
+	long long lli;
+	float f;
 
-return (1);
+	printf("Size of a char; %ld byte(s)\n", sizeof(c));
+	printf("Size of an int; %ld byte(s)\n", sizeof(i));
+	printf("Size of a long int; %ld byte(s)\n", sizeof(li));
+	printf("Size of a long long int; %ld byte(s)\n", sizeof(lli);
+	printf("Size of  float; %ld byte(s)\n", sizeof(f);
+	return (0);
 }
 
