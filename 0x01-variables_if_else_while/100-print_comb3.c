@@ -2,7 +2,7 @@
 /**
  * main - print all possible combinations of two different digits ascending order seperated by a comma follow by space
  *
- * Description: using the main functio 
+ * Description: using the main function 
  * this program prints "Two seperate number using comma and space
  * Return: 0
  */
@@ -18,8 +18,7 @@ int main(void)
 			putchar((digit2 % 10) + '0');
 
 			if (digit1 == 8 && digit2 == 9)
-				continue;
-			
+				continue;	
 			putchar(',');
 			putchar(' ');
 		}
