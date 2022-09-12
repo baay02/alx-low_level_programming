@@ -4,7 +4,7 @@
  *
  * Description: using the main function
  * this program prints "Programming is like  building a multilingual puzzle
- * Return (1);
+ * Return: 1
  */
 int main(void)
 {
@@ -12,5 +12,4 @@ int main(void)
 
 	return (1);
 }
-
 
