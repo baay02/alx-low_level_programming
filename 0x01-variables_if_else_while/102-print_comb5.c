@@ -6,7 +6,7 @@
  * this program prints "two digits from 0-99, that seperated
  * Return: 0
  */
-int main(voi)
+int main(void)
 {
 	int num1, num2;
 
