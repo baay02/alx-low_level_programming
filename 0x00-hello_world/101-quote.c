@@ -4,12 +4,12 @@
  *
  * Description: using the main function
  * this program prints "that piece if of art is useful
- * Return: 0
+ * Return: 1
  */
 int main(void)
 {
-	printf("and that piece of art is useful, - Dora Korfar, 2015-10-19,\n");
+	printf("and that piece of art is useful" - Dora Korfar, 2015-10-19,\n");
 
-return (0);
+return (1);
 }
 
