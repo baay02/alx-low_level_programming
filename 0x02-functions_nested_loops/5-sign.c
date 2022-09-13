@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - function to check the sign od number
- * @c: is the intthat will use for the argument of a function
+ * @c: is the int that will use for the argument of the function
  * Return: 0
  */
 
