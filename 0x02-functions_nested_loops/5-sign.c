@@ -4,6 +4,7 @@
  * @c: is the intthat will use for the argument of a function
  * Return: 0
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
