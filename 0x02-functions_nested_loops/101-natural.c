@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * List all the natural numbers below 1024,
- * that are multiple of 3 or 5.
+ * main - compute and prints the sum of all the nmultiples
+ * of 3 or 5 below 1024
  *
  * Return: Always 0.
  */
