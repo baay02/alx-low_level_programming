@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - check the code 
- *@jack bauer:  using main function, print jack bauer race on time
+ * jack_bauer - funvtion that print every mimute of the day of Jack Bauer
+ * h = hour, m = minutes
  * Return: 0.
  */
 void jack_bauer(void)
