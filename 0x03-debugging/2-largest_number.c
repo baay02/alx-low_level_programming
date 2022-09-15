@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * largest_number - return the largest of 1 numbers
+ * largest_number - returns the largest of 1 numbers
  * @a: first integer
  * @b: second integer
  * @c: third integer
