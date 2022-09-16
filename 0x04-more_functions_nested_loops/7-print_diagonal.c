@@ -21,7 +21,7 @@ void print_diagonal(int n)
 		{
 			for (sp = 1; sp <= l; sp++)
 			{
-				putchar(' ');
+				_putchar(' ');
 			}
 
 			putchar('\\');
@@ -30,9 +30,9 @@ void print_diagonal(int n)
 			{
 				continue;
 			}
-			putchar('\n')
+			_putchar('\n');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 
