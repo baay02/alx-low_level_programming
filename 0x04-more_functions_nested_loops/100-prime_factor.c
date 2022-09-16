@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * main - finds and prints the largest prime factor of the number 612852475143 dollowed by new line
+ * main - finds and prints the largest prime factor of the
+ * number 612852475143 dollowed by new line
  * Return: Alwsys (success)
  */
 
@@ -15,7 +16,7 @@ int main(void)
 	n = 612852475143;
 	max = -1;
 
-	while (n%2 == 0)
+	while (n % 2 == 0)
 	{
 		max = 2;
 		n /= 2;
@@ -25,7 +26,7 @@ int main(void)
 		while (n % i == 0)
 		{
 			max = i;
-			n = n/i;
+			n = n / i;
 		}
 	}
 	if (n > 2)
