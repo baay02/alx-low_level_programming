@@ -8,7 +8,7 @@
  * char prototypes()
  */
 
-int _putchar(char c)
+int putchar(char c)
 char *leet(char *);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
