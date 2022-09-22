@@ -36,7 +36,7 @@ void print_buffer(char *b, int size)
 				*(b + index + byte) <= 120)
 			printf("%c", *(b + index + byte));
 			else
-			printf("-");
+			printf(".");
 		}
 
 		if (byte >= size)
