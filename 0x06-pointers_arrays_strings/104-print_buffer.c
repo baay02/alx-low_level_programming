@@ -23,6 +23,7 @@ void print_buffer(char *b, int size)
 				printf(" ");
 
 			else
+
 		printf("%02x", *(b + index));
 
 		if ((index % 2) != 0 && index != 0)
