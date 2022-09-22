@@ -54,7 +54,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
  * @n1: the first number to be added
  * @n2: the second number ti be added
  * @r: the buffer to store the result
- * @size: the buffer size
+ * @size_r: the buffer size
  *
  * Return: if r can store the sum - poiter to the result
  * if r cannot store the sum - 0
@@ -65,12 +65,10 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 	for (index = 0; *(n1 + index); index++)
 		n1_len++;
-
 	for (index = 0; *(n2 + index); index++)
-			n2_len++;
-
+		n2_len++;
 	if (size_r <= n1_len + 1 || size_r <= n2_len + 1)
-			return (0);
+		return (0);
 
 	n1 += n1_len - 1;
 	n2 += n2_len - 1;
