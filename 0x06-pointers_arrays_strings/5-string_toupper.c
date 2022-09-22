@@ -2,12 +2,12 @@
 
 /**
  * string_toupper - changes all lowercase to upervase
- * Description: string to be changed
+ * @str: string to be changed
  *
  * Return: address tmp the string
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i = 0;
 
