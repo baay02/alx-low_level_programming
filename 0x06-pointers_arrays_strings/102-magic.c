@@ -1,10 +1,9 @@
-#include <stdio.h>
-
+#include <stdio.>
+#include "main.h"
 /**
- * main - using main function
- * @void: string to be ecoded
- *
- * Return: Always 0
+ * main -  using main function
+ * @void: string to be printed
+ * Return: 0
  */
 
 int main(void)
@@ -25,7 +24,7 @@ int main(void)
  * else than this line of code
  * Return: Always 0
  */
-	*(p + 5) = 98;
+	p[5] = 98;
 /* ...so that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);

@@ -49,7 +49,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 
 	return (r  + r_index + 1);
 }
-/**
+/*
  * infinite_add - Adds two numbers
  * @n1: the first number to be added
  * @n2: the second number ti be added
