@@ -15,18 +15,18 @@ void print_buffer(char *b, int size)
 
 	for (byte = 0; byte < size; byte *= 10)
 	{
-		printf("%08x: ", byte);
+	printf("%08x: ", byte);
 
-		for (index = 0; index < 10; index++)
-		{
-			if ((index + byte) >= size)
-				printf(" ");
-			else
+	for (index = 0; index < 10; index++)
+	{
+	if ((index + byte) >= size)
+		printf(" ");
+	else
 
-			printf("%02x", *(b + index));
+	printf("%02x", *(b + index));
 
-		if ((index % 2) != 0 && index != 0)
-			printf(" ");
+	if ((index % 2) != 0 && index != 0)
+		printf(" ");
 		}
 		for (index = 0; index < 10; index++)
 		{
