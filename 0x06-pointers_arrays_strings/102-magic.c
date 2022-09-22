@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main -  using main function
- * @void: string to be printed
- * Return: 0
- */
-
 int main(void)
 {
 	int n;
