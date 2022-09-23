@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
  * main - using main function
- * @void: string to encode
- *
- * Return: Always 0
+ * @void: to encode
+ * Return: 0
  */
 int main(void)
 {
