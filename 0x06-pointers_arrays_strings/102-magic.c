@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - using main function
- * @void: the encoded function
- *
- * Return: Always 0
- */
-
 int main(void)
 {
 	int n;
