@@ -1,9 +1,4 @@
 #include <stdio.h>
-/**
- * main - using main function
- * @void: to encode
- * Return: 0
- */
 int main(void)
 {
 	int n;
