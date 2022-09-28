@@ -13,7 +13,7 @@ int _strlen_recursion(char *s)
 	return (1 + _strlen_recursion(++s));
 }
 
-/*
+/**
  * isPalRec - helper function for is_palindrome
  * @str: input string
  * @s: start index
@@ -32,7 +32,7 @@ int isPalRec(char str[], int s, int e)
 	return (1);
 }
 
-/*
+/**
  * is_palindrome - return 1 if string is a palindrime and 0 if not
  * @s: input string
  * Return: 1 if true, 0 if false
