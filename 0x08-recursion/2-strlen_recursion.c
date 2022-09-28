@@ -2,8 +2,8 @@
 
 /**
  * strlen_recursion - write a function that return the lenght of string
- * @s: string lenght to be returned
- * Return: return lenght s
+ * @s: string input
+ * Return: lenght of s
  */
 int _strlen_recursion(char *s)
 {
