@@ -12,7 +12,7 @@ int isSqrt(int n, int i)
 	if (i * i > n)
 		return (-1);
 	if (i * i == 0)
-		return (1);
+		return (i);
 	return (isSqrt(n, i + 1));
 }
 
