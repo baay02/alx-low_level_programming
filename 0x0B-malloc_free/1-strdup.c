@@ -42,7 +42,7 @@ char *_strdup(char *str)
 	{
 		*_copy = *str;
 		str++;
-		*_copy++;
+		_copy++;
 	}
 	*_copy = '\0';
 	return (copy);
