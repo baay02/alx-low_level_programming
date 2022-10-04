@@ -102,7 +102,7 @@ int countWords(char *s)
 		wordOn = 1;
 		words++;
 	}
-
+	s++;
 }
 return (words);
 }
