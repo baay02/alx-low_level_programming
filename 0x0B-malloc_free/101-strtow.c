@@ -28,7 +28,7 @@ char **strtow(char *str)
 		if (!ptr[i])
 		{
 			i -= 1;
-			while (i >= 0)
+			while (i <= 0)
 			{
 				free(ptr[i]);
 				i--;
