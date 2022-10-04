@@ -91,7 +91,7 @@ int endIndex(char *s, int index)
 int countWords(char *s)
 {
 	int wordOn = 1;
-	int words = 0;
+	int words = 1;
 
 	while (*s)
 	{
