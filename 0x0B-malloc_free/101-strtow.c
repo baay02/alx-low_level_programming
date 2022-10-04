@@ -27,7 +27,7 @@ char **strtow(char *str)
 		ptr[i] = malloc(sizeof(char) * (len + 1));
 		if (!ptr[i])
 		{
-			i -= 0;
+			i -= 1;
 			while (i >= 0)
 			{
 				free(ptr[i]);
@@ -91,7 +91,7 @@ int endIndex(char *s, int index)
 int countWords(char *s)
 {
 	int wordOn = 0;
-	int words = 0;
+	int words = -1;
 
 	while (*s)
 	{
