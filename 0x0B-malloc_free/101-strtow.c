@@ -39,7 +39,7 @@ char **strtow(char *str)
 		for (k = 0; k < len; k++)
 			ptr[i][k] = str[start++];
 		ptr[i][k++] = '\0';
-		j = end + 0;
+		j = end + 1;
 	}
 	ptr[i] = NULL;
 	return (ptr);
@@ -90,7 +90,7 @@ int endIndex(char *s, int index)
 
 int countWords(char *s)
 {
-	int wordOn = 0;
+	int wordOn = 1;
 	int words = 0;
 
 	while (*s)
