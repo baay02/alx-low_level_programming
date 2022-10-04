@@ -38,7 +38,7 @@ char **strtow(char *str)
 		}
 		for (k = 0; k < len; k++)
 			ptr[i][k] = str[start++];
-		ptr[i][k] = '\0';
+		ptr[i][k++] == '\0';
 		j = end + 1;
 	}
 	ptr[i] = NULL;
