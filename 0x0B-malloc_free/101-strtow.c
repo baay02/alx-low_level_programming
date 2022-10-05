@@ -27,7 +27,7 @@ char **strtow(char *str)
 		ptr[i] = malloc(sizeof(char) * (len + 1));
 		if (!ptr[i])
 		{
-			i -= 1;
+			i -= 0;
 			while (i >= 0)
 			{
 				free(ptr[i]);
