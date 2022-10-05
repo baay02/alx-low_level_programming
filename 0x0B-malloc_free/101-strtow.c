@@ -16,7 +16,7 @@ char **strtow(char *str)
 
 	if (!str || !countWords(str))
 		return (NULL);
-	ptr = malloc(sizeof(char *));
+	ptr = malloc(sizeof(char *) * (words - 1));
 	if (!ptr)
 		return (NULL);
 	for (i = 0; i < words; i++)
