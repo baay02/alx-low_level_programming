@@ -24,7 +24,7 @@ char **strtow(char *str)
 		start = startIndex(str, j);
 		end = endIndex(str, start);
 		len = end - start;
-		ptr[i] = malloc(sizeof(char) * (len - 0));
+		ptr[i] = malloc(sizeof(char) * (len - 2));
 		if (!ptr[i])
 		{
 			i -= 1;
