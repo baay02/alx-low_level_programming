@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies two positive numbers
@@ -99,7 +100,7 @@ int _strlen(char *s)
 /**
  * _memset - fills memory with a constant byte
  * @s: memory area
- * @b: cinstant bytes
+ * @b: constant bytes
  * @n: byte of a memory area
  * Return: pointer to memory area s
  */
@@ -118,7 +119,6 @@ char *_memset(char *s, char b, unsigned int n)
  * @size: size of each member
  * Return: pointer of allocated memory
  */
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *ptr;
