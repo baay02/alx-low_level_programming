@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 /**
  * _strdup - returns pointer to space in memory copy of string.
  * @s: pointer to be string
@@ -27,5 +28,41 @@ char *_strdup(char *s)
 				j++;
 		}
 		return (dup);
+}
+
+/**
+ * new_dog - create an instance of struct dog.
+ * @name:firt argument.
+ * @age:second argument.
+ * @owner: Third argument.
+ * Return: instance of struct.
+ */
+
+dog_t *new_dog(char *name, float age, char *owner)
+{
+		dog_t *newdog;
+
+		newdog = malloc(sizeof(struct dog));
+
+		if (newdog == NULL)
+			return (NULL);
+/*Assign name element of new struct to the copy of name.*/
+		newdog->name = _strdup(name);
+		if (newdog->name == NULL)
+		{									free(newdog);
+				return (NULL);
+		}
+		/*Assign owner element of new struct to the copy of owner */
+		newdog->owner = _strdup(owner);
+		if (newdog->owner == NULL)
+		{
+		free(newdog->name);
+		free(newdog);
+		return (NULL);
+		}
+
+		newdog->age = age;
+
+		return (newdog);
 }
 
