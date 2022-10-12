@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		printf("Error\n"), exit(99);
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
-	printf("%i\n", fptr(a, b));
+	printf("%d\n", fptr(a, b));
 	return (0);
 }
 
