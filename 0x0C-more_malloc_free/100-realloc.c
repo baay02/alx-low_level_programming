@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _realloc - reallocates a memiry block using malloc and free
@@ -10,42 +11,41 @@
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	void *res = NULL;
+	char *ptr1;
+	char *old_ptr;
+	unsigned int i;
 
 	if (new_size == old_size)
 		return (ptr);
-	if (!ptr)
-	{
-		free(ptr);
-		res = malloc(new_size);
-		return (res);
-	}
-	if (!new_size && ptr)
+
+	if (new_size == 0 && ptr)
 	{
 		free(ptr);
 		return (NULL);
 	}
-	res = malloc(new_size);
-	_memcpy(res, ptr, old_size);
+	if (!ptr)
+		return (malloc(new_size));
+	ptr1 = malloc(new_size);
+	if (!ptr)
+		return (NULL);
+
+	old_ptr = ptr;
+
+	if (new_size < old_size)
+	{
+		for (i = 0; i < new_size; i++)
+			ptr1[i] = old_ptr[i];
+	}
+
+	if (new_size > old_size)
+	{
+		for (i = 0; i < old_size; i++)
+			ptr1[i] = old_ptr[i];
+	}
+
 	free(ptr);
-	return (res);
+	return (ptr1);
 }
 
-/**
- * _memcpy - cooies memory area
- * @dest: destination string
- * @src: source string
- * @n: number of bytes to be copied
- * Return: pointer to destination
- */
 
-
-char *_memcpy(char *dest, char *src, unsigned int n)
-{
-	char *ptr = dest;
-
-	while (n--)
-		*dest++ = *src++;
-	return (ptr);
-}
 
