@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define SUCCESS 1
+#define FAILURE -1
 /**
  * struct listint_s - singly linked list
  * @n: integer
