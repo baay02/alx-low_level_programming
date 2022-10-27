@@ -1,11 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * File: main.h
- * Description: Is a header file that contain all the
- * prototypes of all functions of 0x14-Bit_manipulation
- */
 
 int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
