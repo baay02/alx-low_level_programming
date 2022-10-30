@@ -1,12 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdio.h>
-/**
- * Desc: prototypes of allnfunctions
- * void prototypes()
- * int prototypes()
- * char prototypes()
- */
+
+
 
 char *leet(char *);
 char *_strcat(char *dest, char *src);
